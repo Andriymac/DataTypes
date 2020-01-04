@@ -1,5 +1,8 @@
 'use strict';
 
-const inc = null;
+const inc = obj => {
+  obj.n += 1;
+  return undefined;
+};
 
 module.exports = { inc };
